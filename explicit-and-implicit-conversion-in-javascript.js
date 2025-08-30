@@ -27,6 +27,6 @@ if (isValid) {
     console.log("This is valid!");
 }
 
-let age = "25";
+let age = Number("25");
 let totalAge = age + 5;
 console.log("Total Age: " + totalAge);
